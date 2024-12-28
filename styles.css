@@ -10,3 +10,12 @@ html{
 p{
     font-size: 18px;
 }
+
+div{
+    height: 100px;
+    width: 75px;
+    border: 1px, solid, black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
