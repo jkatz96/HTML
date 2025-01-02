@@ -1,5 +1,6 @@
 html{
     background: bisque;
+    oi
 }
 
 
@@ -18,4 +19,14 @@ div{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#title{
+    outline: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+image{
+    position: fixed;
 }
