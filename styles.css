@@ -1,25 +1,26 @@
 html{
-    background: bisque;
-    oi
+    background: #9FE2BF;
+}
+
+.shadow{
+    position: absolute;
+    left: 10px;
+    background-color: black;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+body{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
 }
 
 
-*{
-    text-align: center;
-}
 
-p{
-    font-size: 18px;
-}
-
-div{
-    height: 100px;
-    width: 75px;
-    border: 1px, solid, black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #title{
     outline: solid black;
@@ -27,6 +28,16 @@ div{
     border-radius: 5px;
 }
 
-image{
-    position: fixed;
+*{
+    text-align: center;
 }
+
+.picture{
+    border: solid black;
+    height: 100px;
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
