@@ -14,9 +14,10 @@ html{
 
 body{
     background-color: aliceblue;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     position: relative;
+    margin: 25px;
 }
 
 
