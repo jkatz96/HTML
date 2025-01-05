@@ -73,3 +73,15 @@ html{
     margin: 25px;
 }
 
+.rutgerslogo {
+    
+    float: left;
+    font-size: 0;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    overflow: hidden;
+    width: 70px;
+}
+
