@@ -74,13 +74,9 @@ html{
 }
 
 .rutgerslogo {
-    
     float: left;
-    margin-bottom: 2px;
-    margin-right: 5px;
-    margin-top: 0;
-    margin-left: 0;
-    overflow: hidden;
-    width: 70px;
+    margin-right: 10px; /* Optional: Add some space between the image and the paragraph */
+    width: 100px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image does not exceed the div's width */
 }
-
