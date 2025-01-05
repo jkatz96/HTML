@@ -3,33 +3,40 @@ html{
     overflow: hidden;
 }
 
-.shadow{
-    position: absolute;
-    left: 10px;
-    background-color: black;
-    border-radius: 15px;
-    height: 97%;
-    width: 100%;
-    z-index: -1;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: aliceblue;
-    padding: 30px;
-    border-radius: 15px;
-    position: relative;
-    margin: 25px;
-    box-sizing: border-box;
-}
-
-
-
 
 #title{
+    background-color: aliceblue;
     outline: solid black;
     padding: 5px;
     border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
+    margin: 25px;
+}
+
+.Experience{
+    background-color: aliceblue;
+
+    outline: solid black;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
+    margin: 25px;
+}
+
+.Education{
+    background-color: aliceblue;
+    outline: solid black;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
+    margin: 25px;
+}
+
+    footer{
+        margin: 25px;
 }
 
 *{
@@ -45,3 +52,22 @@ body{
     margin-right: auto;
 }
 
+.aboutme{
+    background-color: aliceblue;
+    outline: solid black;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
+    margin: 25px;
+}
+
+.contactme{
+    background-color: aliceblue;
+    outline: solid black;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
+    margin: 25px;
+}
