@@ -1,82 +1,61 @@
-html{
-    background: #9FE2BF;
-    overflow: hidden;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    background-color: #2c2f33; /* Dark grey background color */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-
-#title{
-    background-color: aliceblue;
-    outline: solid black;
-    padding: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
-    margin: 25px;
-}
-
-.Experience{
-    background-color: aliceblue;
-    outline: solid black;
-    padding: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
-    margin: 25px;
-}
-
-.Education{
-    background-color: aliceblue;
-    outline: solid black;
-    padding: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
-    margin: 25px;
-    
-}
-
-
-    footer{
-        margin: 25px;
-}
-
-*{
+header {
     text-align: center;
+    margin-top: 5vh;
 }
 
-.picture{
-    border: solid black;
-    height: 100px;
-    width: 75px;
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #4d4c4c28;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+footer nav a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    max-width: 80%; /* Limits the container width */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds space inside the container */
+    background-color: #1e1e1e; /* Optional: Adds a background color to the container */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.landing-photo {
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains the aspect ratio */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.aboutme{
-    background-color: aliceblue;
-    outline: solid black;
-    padding: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
-    margin: 25px;
-}
-
-.contactme{
-    background-color: aliceblue;
-    outline: solid black;
-    padding: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 100); /* Add shadow */
-    margin: 25px;
-}
-
-.rutgerslogo {
-    float: left;
-    margin-right: 10px; /* Optional: Add some space between the image and the paragraph */
-    width: 100px; /* Set a specific width */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure the image does not exceed the div's width */
+    margin: 20px auto; /* Optional: Center the image horizontally */
+    border-radius: 2%;
 }
